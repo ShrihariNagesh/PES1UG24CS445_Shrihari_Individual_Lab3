@@ -47,7 +47,7 @@ LAB-3_Activity_ShrihariNagesh_PES1UG24CS445/
 │   └── generate_component_diagram.py          Script that draws the diagram
 │
 ├── 3-Project_Creational_Screenshots/       c) GitHub and Jira evidence
-│   ├── github/                                GitHub screenshots (to be added)
+│   ├── github/                                3 GitHub screenshots
 │   └── jira/                                  19 Jira screenshots and the 3 Lab 2 reports
 │
 ├── 4-SRS_and_Work_Breakdown_Steps/         d) SRS and WBS
@@ -109,7 +109,7 @@ Details: [`Architecture_Specification.md`](./2-Architectural_Diagram/Architectur
 | Jira Kanban | `Kanban_BPS#17` | 7 requirement items, 3 epics, 7 user stories with tasks and sub-tasks |
 | Jira Scrum | `Scrum_BPS#17` | 39 story points, Sprint 1 (21 points) and Sprint 2 (18 points), burndown chart |
 | Jira bug tracker | `Bug_BPS#17` | 7 defects, each traced to the requirement it breaks |
-| GitHub | this repository and Lab 1 | Screenshots to be added in `github/` |
+| GitHub | this repository and Lab 1 | Repository home, commit history, Lab 1 repository |
 
 Index of every screenshot: [`3-Project_Creational_Screenshots/README.md`](./3-Project_Creational_Screenshots/README.md)
 
@@ -156,8 +156,7 @@ are separate commits in the history.
 
 - [x] 1-RE: functional requirements, non-functional requirements, RTM, PDF
 - [x] 2-Architectural_Diagram: component diagram (PNG, PDF), one-page justification (Word, PDF), specification
-- [x] 3-Project_Creational_Screenshots: Jira screenshots and Lab 2 reports
-- [ ] 3-Project_Creational_Screenshots: GitHub screenshots (to be added)
+- [x] 3-Project_Creational_Screenshots: GitHub screenshots, Jira screenshots, Lab 2 reports
 - [x] 4-SRS_and_Work_Breakdown_Steps: SRS, WBS, schedule, PDF
 - [x] 5-Github_Copilot_Generated_Code: core engine and passing tests
 - [x] 6-Software_Testing_Tools: game, 4 tests, bug fix, patch, retest

@@ -15,11 +15,13 @@ The Jira screenshots are the ones included in the Lab 2 reports (stored here as 
 
 ## GitHub (`github/`)
 
-| File | Shows |
+Not added yet. Three screenshots go here:
+
+| File name to use | What to capture |
 |---|---|
-| `01_GitHub_Repository_Home.png` | This repository on GitHub with its folders |
-| `02_GitHub_Commit_History.png` | Commit history, including the failing-test commit and the fix |
-| `03_GitHub_Lab1_Repository.png` | The Lab 1 repository (requirements table and use-case diagram) |
+| `01_GitHub_Repository_Home.png` | This repository's home page showing the six folders |
+| `02_GitHub_Commit_History.png` | The commit history, including the failing-test commit and the fix |
+| `03_GitHub_Lab1_Repository.png` | The Lab 1 repository home page |
 
 ## Jira Kanban (`jira/`)
 

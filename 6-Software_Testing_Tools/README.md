@@ -90,4 +90,4 @@ the over-count and proposed this one-line change. Full steps are in
 Both versions are in the commit history: the failing version is commit `6e9ba9f`, and the next
 commit applies the patch.
 
-**Repository after the fix:** https://github.com/ShrihariNagesh/LAB-3_Activity_ShrihariNagesh_PES1UG24CS445
+**Repository after the fix:** https://github.com/ShrihariNagesh/PES1UG24CS445_Shrihari_Individual_Lab3

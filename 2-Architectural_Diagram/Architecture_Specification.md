@@ -151,6 +151,6 @@ Notation used:
 | Provided and required interface notation | Ball and socket on every connector |
 | Interfaces labelled with protocol | REST, async event, async message, SQL |
 | Data flow and interactions | Section 6 and the footer of the diagram |
-| Diagram as PNG or PDF | `Architecture_Diagram.png`, `Architecture_Diagram.pdf` |
+| Diagram as PNG or PDF | `Architecture_Diagram.png`, `Architecture_Diagram.pdf`, editable `Architecture_Diagram.drawio` |
 | Justification, Word, one page, also PDF | `Architecture_Justification_Document.docx`, `.pdf` |
 | Architecture choice, two reasons, security, performance | Section 3 |

@@ -9,9 +9,10 @@
 | File | What it is |
 |---|---|
 | `Architecture_Diagram.png` / `.pdf` | UML component diagram |
+| `Architecture_Diagram.drawio` | Editable draw.io (diagrams.net) version of the same diagram |
 | `Architecture_Justification_Document.docx` / `.pdf` | One-page written justification |
 | `Architecture_Specification.md` / `.pdf` | Full specification: style comparison, components, interfaces, data flow |
-| `generate_component_diagram.py` | Script that draws the diagram (Python, matplotlib) |
+| `generate_component_diagram.py` | Script that draws the PNG and PDF (Python, matplotlib) |
 
 ## Diagram
 

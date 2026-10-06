@@ -9,7 +9,8 @@ A public health administration platform that organises vaccination rollouts by c
 minimum number of days between doses, schedules slots at vaccination centres, and issues QR
 vaccination certificates that can be verified.
 
-**Actors:** Citizen Registrant, Vaccination Officer.
+**Actors:** Citizen Registrant and Vaccination Officer (from the problem statement). The Lab 1
+use-case diagram also has a Health Authority Admin, who sets the cohort and interval rules.
 
 ## 2. Where these requirements come from
 

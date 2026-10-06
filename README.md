@@ -11,7 +11,7 @@
 | Name | Shrihari Nagesh |
 | SRN | PES1UG24CS445 |
 | Department | Computer Science & Engineering, PES University |
-| This repository | [LAB-3_Activity_ShrihariNagesh_PES1UG24CS445](https://github.com/ShrihariNagesh/LAB-3_Activity_ShrihariNagesh_PES1UG24CS445) |
+| This repository | [PES1UG24CS445_Shrihari_Individual_Lab3](https://github.com/ShrihariNagesh/PES1UG24CS445_Shrihari_Individual_Lab3) |
 | Lab 1 repository | [LAB-1_Activity_ShrihariNagesh_PES1UG24CS445](https://github.com/ShrihariNagesh/LAB-1_Activity_ShrihariNagesh_PES1UG24CS445) |
 | Jira projects | `Kanban_BPS#17` (KBPS), `Scrum_BPS#17` (SBPS), `Bug_BPS#17` (BBPS) |
 
@@ -32,16 +32,18 @@ vaccination certificates that can be verified.
 ## Repository structure
 
 ```text
-LAB-3_Activity_ShrihariNagesh_PES1UG24CS445/
+PES1UG24CS445_Shrihari_Individual_Lab3/
 ├── README.md
 │
 ├── 1-RE/                                   a) Requirements Engineering
 │   ├── FR_and_NFR.md                          7 functional and 5 non-functional requirements
 │   ├── RTM_Table.md                           Requirements traceability matrix
+│   ├── Use_Case_Diagram.pdf / .png            Use-case diagram from Lab 1
 │   └── Requirements_Engineering_and_RTM.pdf   Both documents as one PDF
 │
 ├── 2-Architectural_Diagram/                b) Architecture (Lab 3 handout)
 │   ├── Architecture_Diagram.png / .pdf        UML component diagram
+│   ├── Architecture_Diagram.drawio            Editable draw.io version
 │   ├── Architecture_Justification_Document.docx / .pdf   One-page justification
 │   ├── Architecture_Specification.md / .pdf   Full specification
 │   └── generate_component_diagram.py          Script that draws the diagram
@@ -155,7 +157,7 @@ are separate commits in the history.
 ## Submission checklist
 
 - [x] 1-RE: functional requirements, non-functional requirements, RTM, PDF
-- [x] 2-Architectural_Diagram: component diagram (PNG, PDF), one-page justification (Word, PDF), specification
+- [x] 2-Architectural_Diagram: component diagram (PNG, PDF, draw.io), one-page justification (Word, PDF), specification
 - [x] 3-Project_Creational_Screenshots: GitHub screenshots, Jira screenshots, Lab 2 reports
 - [x] 4-SRS_and_Work_Breakdown_Steps: SRS, WBS, schedule, PDF
 - [x] 5-Github_Copilot_Generated_Code: core engine and passing tests

@@ -18,7 +18,28 @@ and "if this requirement changes, what else must change?"
 | Test | Unit tests in [`test_vaccination_core_engine.py`](../5-Github_Copilot_Generated_Code/test_vaccination_core_engine.py) |
 | Jira bug | Bug tracker project `Bug_BPS#17` (BBPS-1 to BBPS-7) |
 
-## 2. Traceability matrix
+## 2. Use cases referenced
+
+From the Lab 1 use-case diagram ([`Use_Case_Diagram.pdf`](./Use_Case_Diagram.pdf)).
+
+![Use-case diagram](./Use_Case_Diagram.png)
+
+| ID | Use case | Actor in the diagram | Relationship |
+|---|---|---|---|
+| UC-01 | Register Citizen Profile | Citizen Registrant | |
+| UC-02 | Book Vaccination Slot | Citizen Registrant | includes UC-03 |
+| UC-03 | Validate Dose Interval | | included by UC-02 |
+| UC-04 | Administer Dose | Vaccination Officer | includes UC-05 |
+| UC-05 | Update Vaccination Record | | included by UC-04 |
+| UC-06 | Generate Digital Certificate | Vaccination Officer | |
+| UC-07 | Verify Certificate (QR Scan) | Health Authority Admin | |
+| UC-08 | Send Appointment Reminder | | extends UC-02 |
+| UC-09 | Configure Cohort & Interval Rules | Health Authority Admin | |
+
+Note on UC-07: the Lab 1 diagram draws certificate verification against the Health Authority Admin.
+From Lab 2 onward the Vaccination Officer does the scan (Jira story SBPS-6), and FR-006 follows that.
+
+## 3. Traceability matrix
 
 | Req. | Requirement (short) | Use case | Jira story | Component | WBS | Test | Jira bug | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -37,7 +58,7 @@ and "if this requirement changes, what else must change?"
 
 UC-09 (Configure Cohort & Interval Rules) supplies the rule values that FR-001 and FR-002 enforce.
 
-## 3. Jira bug traceability
+## 4. Jira bug traceability
 
 Status is the Jira status at the time of the Lab 2 bug report. "Regression test" is the unit test in
 this repository that would fail if the bug came back.
@@ -52,7 +73,7 @@ this repository that would fail if the bug came back.
 | BBPS-6 | Certificate verification exceeds 150 ms target under peak load | NFR-001 | High | To Do | TC-15 (partial: checks key reuse, not peak load) |
 | BBPS-7 | Citizen health data visible in plaintext in network logs | NFR-002 | Critical | To Do | none (deployment setting, not engine code) |
 
-## 4. Coverage summary
+## 5. Coverage summary
 
 | Measure | Count |
 |---|---|

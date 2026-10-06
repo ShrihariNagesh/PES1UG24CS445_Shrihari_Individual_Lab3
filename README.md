@@ -49,7 +49,7 @@ PES1UG24CS445_Shrihari_Individual_Lab3/
 │   └── generate_component_diagram.py          Script that draws the diagram
 │
 ├── 3-Project_Creational_Screenshots/       c) GitHub and Jira evidence
-│   ├── github/                                3 GitHub screenshots
+│   ├── github/                                4 GitHub screenshots
 │   └── jira/                                  19 Jira screenshots and the 3 Lab 2 reports
 │
 ├── 4-SRS_and_Work_Breakdown_Steps/         d) SRS and WBS

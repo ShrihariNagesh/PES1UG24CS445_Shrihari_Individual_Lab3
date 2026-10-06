@@ -18,8 +18,9 @@ The Jira screenshots are the ones included in the Lab 2 reports (stored here as 
 | File | Shows |
 |---|---|
 | `01_GitHub_Repository_Home.jpg` | This repository's home page with the six folders |
-| `02_GitHub_Commit_History.jpg` | Commit history, including the failing-test commit (`6e9ba9f`) and the fix (`630b686`) |
-| `03_GitHub_Lab1_Repository.jpg` | The Lab 1 repository (problem statement, requirements table, use-case diagram) |
+| `02_GitHub_Commit_History.jpg` | Commit history, most recent commits |
+| `03_GitHub_Commits_Failing_Test_And_Fix.jpg` | Earlier commits, including the failing-test commit (`6e9ba9f`) and the fix (`630b686`) |
+| `04_GitHub_Lab1_Repository.jpg` | The Lab 1 repository (problem statement, requirements table, use-case diagram) |
 
 ![Repository home](./github/01_GitHub_Repository_Home.jpg)
 

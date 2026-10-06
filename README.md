@@ -11,7 +11,7 @@
 | Name | Shrihari Nagesh |
 | SRN | PES1UG24CS445 |
 | Department | Computer Science & Engineering, PES University |
-| This repository | [PES1UG24CS445_Shrihari_Individual_Lab3](https://github.com/ShrihariNagesh/PES1UG24CS445_Shrihari_Individual_Lab3) |
+| This repository | [LAB-3_Activity_ShrihariNagesh_PES1UG24CS445](https://github.com/ShrihariNagesh/LAB-3_Activity_ShrihariNagesh_PES1UG24CS445) |
 | Lab 1 repository | [LAB-1_Activity_ShrihariNagesh_PES1UG24CS445](https://github.com/ShrihariNagesh/LAB-1_Activity_ShrihariNagesh_PES1UG24CS445) |
 | Jira projects | `Kanban_BPS#17` (KBPS), `Scrum_BPS#17` (SBPS), `Bug_BPS#17` (BBPS) |
 
@@ -32,7 +32,7 @@ vaccination certificates that can be verified.
 ## Repository structure
 
 ```text
-PES1UG24CS445_Shrihari_Individual_Lab3/
+LAB-3_Activity_ShrihariNagesh_PES1UG24CS445/
 ├── README.md
 │
 ├── 1-RE/                                   a) Requirements Engineering

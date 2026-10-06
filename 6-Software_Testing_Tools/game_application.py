@@ -46,7 +46,7 @@ def normalise_guess(guess):
 def evaluate_guess(secret, guess):
     """Return (exact, partial) for a guess against the secret."""
     exact = sum(1 for s, g in zip(secret, guess) if s == g)
-    in_secret = sum(1 for g in guess if g in secret)
+    in_secret = sum(min(secret.count(c), guess.count(c)) for c in set(guess))
     partial = in_secret - exact
     return exact, partial
 
